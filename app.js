@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 8080
+const port = 21189
 
 app.use(express.static('public'))
 app.use('/img',express.static(__dirname + 'public/img'))
